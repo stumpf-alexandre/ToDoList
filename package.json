@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Projeto decriação de uma lista de tarefas usando a arquitetura MVC e banco de dados Mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stumpf-alexandre/ToDoList.git"
+  },
+  "author": "Alexandre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stumpf-alexandre/ToDoList/issues"
+  },
+  "homepage": "https://github.com/stumpf-alexandre/ToDoList#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
