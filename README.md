@@ -8,3 +8,4 @@ Criar uma lista de tarefas com banco de dados.
     "start": "node index"
  }
 - instalar o framework express com o comando "npm i express" retirado do site do npm
+- para rodar um servidor local digitamos no gitBash "npm start"
