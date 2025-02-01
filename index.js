@@ -1,8 +1,15 @@
 const express = require("express");
-const app = express();
 
-app.get("/home", (req, res) => {
-  res.send("Hello World");
+const app = express();
+const port = 3000;
+
+app.set("view engine", "ejs");
+
+//Rota
+app.get("/", (req, res) => {
+  res.render("index");
 });
 
-app.listen(3000);
+app.listen(port, () =>
+  console.log(`Servidor rodando em http://localhost:${port}`)
+);
